@@ -183,7 +183,7 @@ footer {
   font-size: 14px;
   line-height: 1.7em;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: var(--footer-color);
   text-decoration: none;
 }
 
@@ -197,7 +197,7 @@ footer {
   font-size: 14px;
   line-height: 1.7em;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: var(--footer-color);
   text-decoration: none;
 }
 
