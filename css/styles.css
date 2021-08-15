@@ -18,6 +18,7 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -26,12 +27,18 @@ body {
 
 /* Header */
 .header-logo {
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
   color: var(--primary-text-color);
 }
 
 .logo-color {
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
   color: var(--accent-color);
 }
 
@@ -77,13 +84,14 @@ body {
 /* Button */
 
 button {
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 00.06em;
+  letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
   cursor: pointer;
@@ -110,15 +118,16 @@ button {
 }
 
 .features .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14em;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  text-transform: uppercase;
 }
 
 .features .text {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
@@ -127,7 +136,7 @@ button {
 
 /*Our work*/
 .work .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16em;
   text-align: center;
@@ -141,9 +150,9 @@ button {
 }
 
 .team .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1.16em;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -152,7 +161,7 @@ button {
 .team .name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18em;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--primary-text-color);
@@ -161,7 +170,7 @@ button {
 .team .profession {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.18em;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--secondary-text-color);
@@ -174,7 +183,10 @@ footer {
 }
 
 .footer-logo {
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
   color: var(--accent-color);
 }
 .footer-logo-color {
@@ -182,15 +194,16 @@ footer {
   color: var(--white-color);
 }
 .adress {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.7em;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
 
 .footer-mail {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7em;
   letter-spacing: 0.03em;
@@ -204,7 +217,7 @@ footer {
 }
 
 .footer-tel {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7em;
   letter-spacing: 0.03em;
@@ -220,15 +233,15 @@ footer {
 /* Portfolio CSS */
 
 .item-work {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 2em;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
 
 .text-work {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87em;
   letter-spacing: 0.03em;
