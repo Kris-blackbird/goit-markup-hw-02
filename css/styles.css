@@ -203,6 +203,7 @@ footer {
 }
 
 .footer-mail {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7em;
@@ -217,6 +218,7 @@ footer {
 }
 
 .footer-tel {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7em;
@@ -246,4 +248,8 @@ footer {
   line-height: 1.87em;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+a {
+  text-decoration: none;
 }
