@@ -25,10 +25,14 @@ h2,
 h3,
 h4,
 h5,
-h6,
-ul {
+h6 {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
 }
 
 .container {
@@ -50,10 +54,8 @@ body {
 /* Header */
 
 .header {
-  padding: 24px 215px 25px 215px;
-  border-bottom: 1px;
-  border-inline: solid;
-  border-color: #e5e5e5;
+  padding: 24px 0 25px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .header .container {
@@ -145,7 +147,7 @@ body {
   padding-bottom: 200px;
   text-align: center;
   align-items: center;
-  /*margin-bottom: 94px;*/
+  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -208,15 +210,20 @@ button {
 }
 
 .features {
-  padding: 94px 0 47px 0;
+  padding: 0 0 94px 0;
+  outline-style: solid 2px green;
 }
 
 .features .list {
   display: flex;
+  padding-bottom: 0px;
 }
 
 .features .features-el:not(:last-child) {
   margin-right: 30px;
+}
+.features-el {
+  outline: tomato 2px solid;
 }
 
 .features .title {
@@ -248,6 +255,10 @@ button {
 
 .work .list {
   display: flex;
+}
+
+.work-el {
+  align-items: center;
 }
 
 .work .title {
@@ -335,12 +346,18 @@ footer {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 20px;
+  padding-right: auto;
 }
 
 .footer-logo-color {
   font-weight: bold;
   color: var(--white-color);
 }
+
+.footer .list {
+  margin: 0px;
+}
+
 .adress {
   font-style: normal;
   font-weight: normal;
@@ -348,14 +365,16 @@ footer {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--white-color);
+  display: block;
   margin: 0;
+  outline: 2px solid white;
 }
 
-.adress .adress-el:not(:last-child) {
+.adress-el:not(:last-child) {
   margin: 0 0 9px;
 }
 
-.footer-mail {
+/*.footer-mail {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -364,14 +383,16 @@ footer {
   color: var(--footer-color);
   text-decoration: none;
   display: block;
-}
+  margin-bottom: 0;
+  outline: 2px solid white;
+}*/
 
 .footer-mail:focus,
 .footer-mail:hover {
   color: var(--accent-color);
 }
 
-.footer-tel {
+.footer-adress {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -379,6 +400,9 @@ footer {
   letter-spacing: 0.03em;
   color: var(--footer-color);
   text-decoration: none;
+  display: block;
+  margin: 0;
+  outline: 2px solid white;
 }
 
 .footer-tel:focus,
@@ -387,6 +411,32 @@ footer {
 }
 
 /* Portfolio CSS */
+
+.portfolio {
+  padding: 94px 0;
+}
+
+/*.site-nav .item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  margin: 32 auto 32 auto;
+  display: block;
+  text-decoration: none;
+}*/
+
+.buttons .list {
+  justify-content: center;
+  /*padding: 94px 0 50px 0;*/
+  padding-bottom: 34px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0;
+}
 
 .card-set {
   display: flex;
