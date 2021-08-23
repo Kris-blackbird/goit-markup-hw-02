@@ -82,10 +82,6 @@ body {
   color: var(--accent-color);
   display: flex;
   margin-right: 93px;
-  /*padding-left: 215px;*/
-  /*width: 145px;
-  height: 31px;*/
-  /*padding: 24px 0 25px 215px;*/
 }
 
 .header-line {
@@ -221,9 +217,6 @@ button {
 
 .features .features-el:not(:last-child) {
   margin-right: 30px;
-}
-.features-el {
-  outline: tomato 2px solid;
 }
 
 .features .title {
@@ -367,25 +360,11 @@ footer {
   color: var(--white-color);
   display: block;
   margin: 0;
-  outline: 2px solid white;
 }
 
 .adress-el:not(:last-child) {
   margin: 0 0 9px;
 }
-
-/*.footer-mail {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7em;
-  letter-spacing: 0.03em;
-  color: var(--footer-color);
-  text-decoration: none;
-  display: block;
-  margin-bottom: 0;
-  outline: 2px solid white;
-}*/
 
 .footer-mail:focus,
 .footer-mail:hover {
@@ -402,7 +381,6 @@ footer {
   text-decoration: none;
   display: block;
   margin: 0;
-  outline: 2px solid white;
 }
 
 .footer-tel:focus,
@@ -416,17 +394,6 @@ footer {
   padding: 94px 0;
 }
 
-/*.site-nav .item {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  margin: 32 auto 32 auto;
-  display: block;
-  text-decoration: none;
-}*/
-
 .buttons-list {
   display: flex;
   justify-content: center;
@@ -437,30 +404,42 @@ footer {
   margin-right: 8px;
 }
 
-.btn {
-  /*padding-bottom: 94px;
-
-  display: inline-flex;
-  padding: 0;
-  /* align-items: center;
-  align-content: center;
-  justify-content: center;*/
+.btn-portfolio {
+  border: 0px;
 }
 
 .card-set {
+  width: 1230px;
+  padding-bottom: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
-  margin-left: -10px;
-  margin-top: -10px;
 }
 
-/*.item {
-  margin-left: 10px;
-  margin-top: 10px;
-  flex-basis: calc((100%-30px) / 3);
-}*/
+.card-item {
+  /* width: calc((100% - 60px) / 3);*/
+  margin-right: 30px;
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+  width: 370px;
+  height: 404px;
+}
+
+.card-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.card-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
 
 .item-work {
+  margin-top: 20px;
+  margin-bottom: 0;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -469,6 +448,9 @@ footer {
 }
 
 .text-work {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87em;
