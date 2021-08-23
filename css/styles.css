@@ -427,15 +427,24 @@ footer {
   text-decoration: none;
 }*/
 
-.buttons .list {
+.buttons-list {
+  display: flex;
   justify-content: center;
-  /*padding: 94px 0 50px 0;*/
-  padding-bottom: 34px;
+  padding: 94px 0 50px 0;
+}
+
+.buttons-list .btn:not(:last-child) {
+  margin-right: 8px;
 }
 
 .btn {
-  display: inline-block;
+  /*padding-bottom: 94px;
+
+  display: inline-flex;
   padding: 0;
+  /* align-items: center;
+  align-content: center;
+  justify-content: center;*/
 }
 
 .card-set {
