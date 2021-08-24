@@ -360,6 +360,7 @@ footer {
   color: var(--white-color);
   display: block;
   margin: 0;
+  outline: 1px solid tomato;
 }
 
 .adress-el:not(:last-child) {
